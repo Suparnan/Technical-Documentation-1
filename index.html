@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <style>
+        .bav:hover{
+            background-color: lightgray;
+        }
+        .bav{
+            color: black;
+        }
+        .dam{
+            background: linear-gradient(to bottom right,white,rgb(236, 234, 234),lightgrey,rgb(54, 54, 107));
+        }
+        .dropdown-item:hover{
+            background-color: lightgreen;
+        }
+        .red{
+            color: red;
+        }
+        .brown{
+            color: brown;
+        }
+        .blue{
+            color: blue;
+        }
+        .grey{
+            background-color: rgb(240, 236, 236);
+        }
+        span{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="row" >
+         <div class="col-3" >
+             <div data-spy="scroll" data-offset="5" STYLE="width:200px;line-height: 3em;overflow: scroll;border: thin solid #000;padding: 5px;height:600px;">   
+        <nav id="navbar-example3" class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">CSS Tutorial</a>
+            <nav class="nav nav-pills flex-column">
+              <li class="bav" id="item-1">CSS Home</li>
+              <li class="bav" id="item-2">CSS Introductions</li>
+              <li class="bav" id="item-3">CSS Syntax</li>
+              <li class="bav" id="item-4">CSS Selector</li>
+              <li class="bav" id="item-5">CSS How to</li>
+              <li class="bav" id="item-6">CSS Comments</li>
+              <li class="bav" id="item-7">CSS Colors</li>
+              <li class="bav dropdown"  id="item-8" data-toggle="dropdown">
+            
+                    CSS Background
+                <div class="dropdown-menu">
+                <button class="dropdown-item" type="button">Background Color</button>
+                <button class="dropdown-item" type="button">Backgroung Image</button>
+                <button class="dropdown-item" type="button">Background Repeat</button>
+                <button class="dropdown-item" type="button">Backgroung Attachment</button>
+                <button class="dropdown-item" type="button">Background Shorthand</button>
+            </div>
+        </li>
+        
+              <li class="bav" id="item-9">CSS Borders</li>
+              <li class="bav" id="item-10">CSS Margins</li>
+              <li class="bav" id="item-11">CSS Padding</li>
+              <li class="bav" id="item-12">CSS Height/Width</li>
+              <li class="bav" id="item-13">CSS Box Model</li>
+              <li class="bav" id="item-14">CSS Outline</li>
+              <li class="bav" id="item-15">CSS Text</li>
+              <li class="bav" id="item-16">CSS Fonts</li>
+              <li class="bav" id="item-17">CSS Icons</li>
+              <li class="bav" id="item-18">CSS Links</li>
+            
+            </nav>
+          </nav>
+          </div>
+        </div>
+
+        <div class = "col-9">
+            <hr>
+            <div>
+            <p><b>The CSS background properties are used to add background effects for element.</b></p>
+            </div>
+            <hr>    
+        <div class="card">
+                <div class="card-body dam">
+                  <ul type="bullets" ><p class="pad">In this chapter you will learn about the following CSS Properties:</p>
+                    <li ><p class="red">background-color</p></li>
+                    <li ><p class="red">background-image</p></li>
+                    <li ><p class="red">background-repeat</p></li>
+                    <li ><p class="red">background-attachment</p></li>
+                    <li ><p class="red">background-position</p></li>
+                    <li ><p class="red">background  <span>(shorthand property)</span></p></li>
+                    </ul>
+                </div>
+        </div>
+        <hr>
+        <div>
+            <h2 id="item-1"><b>CSS background-color</b></h2>
+            <p>The <span class="red">background-color</span> property specifies the background color of an element</p>
+        </div>
+        <hr>
+        <div class="grey">
+            <h3 id="item-1"><b>Example</b></h2>
+            <p>The background color of this page is set like this:</p>
+            <div class="card">
+                <div class="card-body">
+                    <p class="brown">body <span>{</span></p> 
+                        <p class="red">background-color<span>:</span><spanc class="blue"> lightblue</span><span>;</span>
+                        <p>}</p>
+                </div>
+            </div>
+        </div>
+        <hr>   
+          </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script> 
+</body>
+</html>
